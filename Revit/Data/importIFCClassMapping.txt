@@ -1,161 +1,621 @@
-# IFC Class Name and Type to Revit Category/Sub-Category Table
-# Maps IFC Class and Type to Revit Category/Sub-Category
-# You may edit using File -> Import/Export Settings -> IFC Options... .
+# Revit Export Layers
+# Maps Categories and Subcategories to layer names and color numbers
+# Category <tab> Subcategory <tab> Layer name <tab> Color number <tab>
+# Cut layer name <tab> Cut color number
+# Do not remove the colon (:) after certain category names.
 # -----------------------------------------------------
-IfcAirTerminal		Air Terminals	
-IfcAirTerminalType		Air Terminals	
-IfcAnnotation		Generic Annotations	
-IfcBeam		Structural Framing	
-IfcBeamType		Structural Framing	
-IfcBoiler		Mechanical Equipment	
-IfcBoilerType		Mechanical Equipment	
-IfcBuildingElementPart		Parts	
-IfcBuildingElementPartType		Parts	
-IfcBuildingElementProxy		Generic Models	
-IfcBuildingElementProxyType		Generic Models	
-IfcCableCarrierFitting		Cable Tray Fittings	
-IfcCableCarrierFittingType		Cable Tray Fittings	
-IfcCableCarrierSegment		Cable Trays	
-IfcCableCarrierSegmentType		Cable Trays	
-IfcColumn		Columns	
-IfcColumn	[LoadBearing]	Structural Columns	
-IfcColumn	COLUMN	Columns	
-IfcColumn	NOTDEFINED	Columns	
-IfcColumn	USERDEFINED	Columns	
-IfcColumnType		Columns	
-IfcColumnType	[LoadBearing]	Structural Columns	
-IfcColumnType	COLUMN	Columns	
-IfcColumnType	NOTDEFINED	Columns	
-IfcColumnType	USERDEFINED	Columns	
-IfcController		Specialty Equipment	
-IfcControllerType		Specialty Equipment	
-IfcCovering		Generic Models	
-IfcCovering	CEILING	Ceilings	
-IfcCovering	FLOORING	Floors	
-IfcCovering	ROOFING	Roofs	
-IfcCoveringType		Generic Models	
-IfcCoveringType	CEILING	Ceilings	
-IfcCoveringType	FLOORING	Floors	
-IfcCoveringType	ROOFING	Roofs	
-IfcCurtainWall		Curtain Systems	
-IfcCurtainWallType		Curtain Systems	
-IfcDiscreteAccessory		Specialty Equipment	
-IfcDiscreteAccessoryType		Specialty Equipment	
-IfcDistributionFlowElement		Mechanical Equipment	
-IfcDoor		Doors	
-IfcDoorStyle		Doors	
-IfcDoorType		Doors	
-IfcDuctFitting		Duct Fittings	
-IfcDuctFittingType		Duct Fittings	
-IfcDuctSegment		Ducts	
-IfcDuctSegmentType		Ducts	
-IfcElectricAppliance	DISHWASHER	Plumbing Fixtures	
-IfcElectricAppliance	ELECTRICCOOKER	Electrical Fixtures	
-IfcElectricAppliance	FRIDGE_FREEZER	Specialty Equipment	
-IfcElectricAppliance	TUMBLEDRYER	Electrical Fixtures	
-IfcElectricAppliance	USERDEFINED	Electrical Fixtures	
-IfcElectricAppliance	WASHINGMACHINE	Electrical Fixtures	
-IfcElectricApplianceType	DISHWASHER	Plumbing Fixtures	
-IfcElectricApplianceType	ELECTRICCOOKER	Electrical Fixtures	
-IfcElectricApplianceType	FRIDGE_FREEZER	Specialty Equipment	
-IfcElectricApplianceType	TUMBLEDRYER	Electrical Fixtures	
-IfcElectricApplianceType	USERDEFINED	Electrical Fixtures	
-IfcElectricApplianceType	WASHINGMACHINE	Electrical Fixtures	
-IfcEnergyConversionDevice		Mechanical Equipment	
-IfcFan		Mechanical Equipment	
-IfcFanType		Mechanical Equipment	
-IfcFastener		Structural Connections	
-IfcFastenerType		Structural Connections	
-IfcFireSuppressionTerminal	SPRINKLER	Sprinklers	
-IfcFireSuppressionTerminalType	SPRINKLER	Sprinklers	
-IfcFlowController		Generic Models	
-IfcFlowControllerType		Generic Models	
-IfcFlowMovingDevice		Mechanical Equipment	
-IfcFlowStorageDevice		Specialty Equipment	
-IfcFlowTerminal		Generic Models	
-IfcFooting		Structural Foundations	
-IfcFootingType		Structural Foundations	
-IfcFurnishingElement		Furniture	
-IfcFurnishingElementType		Furniture	
-IfcFurniture		Furniture	
-IfcFurnitureType		Furniture	
-IfcGeographicElement		Site	
-IfcGeographicElementType		Site	
-IfcLamp		Lighting Devices	
-IfcLampType		Lighting Devices	
-IfcLightFixture		Lighting Fixtures	
-IfcLightFixtureType		Lighting Fixtures	
-IfcMechanicalFastener		Specialty Equipment	
-IfcMechanicalFastenerType		Specialty Equipment	
-IfcMember		Structural Framing	
-IfcMember	MULLION	Curtain Wall Mullions	
-IfcMemberType		Structural Framing	
-IfcMemberType	MULLION	Curtain Wall Mullions	
-IfcOpeningElement		Generic Models	
-IfcPile		Structural Foundations	
-IfcPileType		Structural Foundations	
-IfcPipeFitting		Pipe Fittings	
-IfcPipeFittingType		Pipe Fittings	
-IfcPipeSegment		Pipes	
-IfcPipeSegmentType		Pipes	
-IfcPlate		Structural Framing	
-IfcPlate	CURTAIN_PANEL	Curtain Panels	
-IfcPlateType		Structural Framing	
-IfcPlateType	CURTAIN_PANEL	Curtain Panels	
-IfcPump		Mechanical Equipment	
-IfcPumpType		Mechanical Equipment	
-IfcRailing		Railings	
-IfcRailingType		Railings	
-IfcRamp		Ramps	
-IfcRampFlight		Ramps	
-IfcRampFlightType		Ramps	
-IfcRampType		Ramps	
-IfcReinforcingBar		Structural Rebar	
-IfcReinforcingBarType		Structural Rebar	
-IfcReinforcingMesh		Structural Fabric Areas	
-IfcReinforcingMeshType		Structural Fabric Areas	
-IfcRoof		Roofs	
-IfcRoofType		Roofs	
-IfcSanitaryTerminal		Plumbing Fixtures	
-IfcSanitaryTerminalType		Plumbing Fixtures	
-IfcSensor		Specialty Equipment	
-IfcSensorType		Specialty Equipment	
-IfcSite		Site	
-IfcSlab		Generic Models	
-IfcSlab	BASESLAB	Structural Foundations	
-IfcSlab	FLOOR	Floors	
-IfcSlab	LANDING	Stairs	Landings
-IfcSlab	ROOF	Roofs	
-IfcSlabType		Generic Models	
-IfcSlabType	BASESLAB	Structural Foundations	
-IfcSlabType	FLOOR	Floors	
-IfcSlabType	LANDING	Stairs	Landings
-IfcSlabType	ROOF	Roofs	
-IfcSpace		Generic Models	
-IfcSpaceHeater		Mechanical Equipment	
-IfcSpaceHeaterType		Mechanical Equipment	
-IfcSpaceType		Generic Models	
-IfcStair		Stairs	
-IfcStairFlight		Stairs	
-IfcStairFlightType		Stairs	
-IfcStairType		Stairs	
-IfcSwitchingDevice		Electrical Fixtures	
-IfcSwitchingDeviceType		Electrical Fixtures	
-IfcSystemFurnitureElement		Furniture	
-IfcSystemFurnitureElementType		Furniture	
-IfcTank		Specialty Equipment	
-IfcTankType		Specialty Equipment	
-IfcTransportElement		Specialty Equipment	
-IfcTransportElementType		Specialty Equipment	
-IfcValve		Pipe Accessories	
-IfcValve	DRAWOFFCOCK	Plumbing Fixtures	
-IfcValve	FAUCET	Plumbing Fixtures	
-IfcValveType		Pipe Accessories	
-IfcValveType	DRAWOFFCOCK	Plumbing Fixtures	
-IfcValveType	FAUCET	Plumbing Fixtures	
-IfcWall		Walls	
-IfcWallStandardCase		Walls	
-IfcWallType		Walls	
-IfcWindow		Windows	
-IfcWindowStyle		Windows	
-IfcWindowType		Windows	
+Air Terminals		Not Exported			
+Areas		Not Exported			
+Areas	Color Fill	Not Exported			
+Areas	Interior Fill	Not Exported			
+Areas	Reference	Not Exported			
+Cable Tray Fittings		Not Exported			
+Cable Tray Fittings	Center line	Not Exported			
+Cable Trays		Not Exported			
+Cable Trays	Center line	Not Exported			
+Cable Trays	Drop	Not Exported			
+Cable Trays	Rise	Not Exported			
+Casework		Not Exported			
+Casework	Hidden Lines	Not Exported			
+Ceilings		Not Exported			
+Ceilings	Common Edges	Not Exported			
+Ceilings	Cut Pattern	Not Exported			
+Ceilings	Finish 1 [4]	Not Exported			
+Ceilings	Finish 2 [5]	Not Exported			
+Ceilings	Hidden Lines	Not Exported			
+Ceilings	Membrane Layer	Not Exported			
+Ceilings	Structure [1]	Not Exported			
+Ceilings	Substrate [2]	Not Exported			
+Ceilings	Surface Pattern	Not Exported			
+Ceilings	Thermal/Air Layer [3]	Not Exported			
+Columns		Not Exported			
+Columns	Hidden Lines	Not Exported			
+Communication Devices		Not Exported			
+Conduit Fittings		Not Exported			
+Conduit Fittings	Center line	Not Exported			
+Conduits		Not Exported			
+Conduits	Center line	Not Exported			
+Conduits	Drop	Not Exported			
+Conduits	Rise	Not Exported			
+Curtain Panels		Not Exported			
+Curtain Panels	Glass	Not Exported			
+Curtain Panels	Hidden Lines	Not Exported			
+Curtain Systems		Not Exported			
+Curtain Systems	Curtain System Grids	Not Exported			
+Curtain Systems	Hidden Lines	Not Exported			
+Curtain Wall Mullions		Not Exported			
+Curtain Wall Mullions	Hidden Lines	Not Exported			
+Data Devices		Not Exported			
+Detail Items		Not Exported			
+Detail Items	Heavy Lines	Not Exported			
+Detail Items	Hidden Lines	Not Exported			
+Detail Items	Light Lines	Not Exported			
+Detail Items	Medium Lines	Not Exported			
+Doors		Not Exported			
+Doors	Architrave	Not Exported			
+Doors	Elevation Swing	Not Exported			
+Doors	Frame/Mullion	Not Exported			
+Doors	Glass	Not Exported			
+Doors	Hidden Lines	Not Exported			
+Doors	Ironmongery	Not Exported			
+Doors	Moulding/Architrave	Not Exported			
+Doors	Opening	Not Exported			
+Doors	Panel	Not Exported			
+Doors	Plan Swing	Not Exported			
+Doors	Structural Opening	Not Exported			
+Duct Accessories		Not Exported			
+Duct Fittings		Not Exported			
+Duct Fittings	Center line	Not Exported			
+Duct Insulations		Not Exported			
+Duct Linings		Not Exported			
+Duct Placeholders		Not Exported			
+Ducts		Not Exported			
+Ducts	Center line	Not Exported			
+Ducts	Drop	Not Exported			
+Ducts	Rise	Not Exported			
+Electrical Equipment		Not Exported			
+Electrical Equipment	Hidden Lines	Not Exported			
+Electrical Fixtures		Not Exported			
+Electrical Fixtures	Hidden Lines	Not Exported			
+Entourage		Not Exported			
+Entourage	Hidden Lines	Not Exported			
+Fire Alarm Devices		Not Exported			
+Flex Ducts		Not Exported			
+Flex Ducts	Center line	Not Exported			
+Flex Ducts	Pattern	Not Exported			
+Flex Pipes		Not Exported			
+Flex Pipes	Center Line	Not Exported			
+Flex Pipes	Pattern	Not Exported			
+Floors		Not Exported			
+Floors	Common Edges	Not Exported			
+Floors	Cut Pattern	Not Exported			
+Floors	Finish 1 [4]	Not Exported			
+Floors	Finish 2 [5]	Not Exported			
+Floors	Hidden Lines	Not Exported			
+Floors	Interior Edges	Not Exported			
+Floors	Membrane Layer	Not Exported			
+Floors	Slab Edges	Not Exported			
+Floors	Structure [1]	Not Exported			
+Floors	Substrate [2]	Not Exported			
+Floors	Surface Pattern	Not Exported			
+Floors	Thermal/Air Layer [3]	Not Exported			
+Furniture		Not Exported			
+Furniture	Hidden Lines	Not Exported			
+Furniture	Overhead Lines	Not Exported			
+Furniture Systems		Not Exported			
+Furniture Systems	Hidden Lines	Not Exported			
+Generic Models		Not Exported			
+Generic Models	Hidden Lines	Not Exported			
+HVAC Zones		Not Exported			
+HVAC Zones	Boundary	Not Exported			
+HVAC Zones	Color Fill	Not Exported			
+HVAC Zones	Interior Fill	Not Exported			
+HVAC Zones	Reference Lines	Not Exported			
+IfcAirTerminal		Air Terminals			
+IfcAirTerminalType		Air Terminals			
+IfcAnnotation		Generic Annotations			
+IfcBeam		Structural Framing			
+IfcBeamType		Structural Framing			
+IfcBoiler		Mechanical Equipment			
+IfcBoilerType		Mechanical Equipment			
+IfcBuildingElementPart		Parts			
+IfcBuildingElementPartType		Parts			
+IfcBuildingElementProxy		Generic Models			
+IfcBuildingElementProxyType		Generic Models			
+IfcCableCarrierFitting		Cable Tray Fittings			
+IfcCableCarrierFittingType		Cable Tray Fittings			
+IfcCableCarrierSegment		Cable Trays			
+IfcCableCarrierSegmentType		Cable Trays			
+IfcColumn		Columns			
+IfcColumn	[LoadBearing]	Structural Columns			
+IfcColumn	COLUMN	Columns			
+IfcColumn	NOTDEFINED	Columns			
+IfcColumn	USERDEFINED	Columns			
+IfcColumnType		Columns			
+IfcColumnType	[LoadBearing]	Structural Columns			
+IfcColumnType	COLUMN	Columns			
+IfcColumnType	NOTDEFINED	Columns			
+IfcColumnType	USERDEFINED	Columns			
+IfcController		Specialty Equipment			
+IfcControllerType		Specialty Equipment			
+IfcCovering		Generic Models			
+IfcCovering	CEILING	Ceilings			
+IfcCovering	FLOORING	Floors			
+IfcCovering	ROOFING	Roofs			
+IfcCoveringType		Generic Models			
+IfcCoveringType	CEILING	Ceilings			
+IfcCoveringType	FLOORING	Floors			
+IfcCoveringType	ROOFING	Roofs			
+IfcCurtainWall		Curtain Systems			
+IfcCurtainWallType		Curtain Systems			
+IfcDiscreteAccessory		Specialty Equipment			
+IfcDiscreteAccessoryType		Specialty Equipment			
+IfcDistributionFlowElement		Mechanical Equipment			
+IfcDoor		Doors			
+IfcDoorStyle		Doors			
+IfcDoorType		Doors			
+IfcDuctFitting		Duct Fittings			
+IfcDuctFittingType		Duct Fittings			
+IfcDuctSegment		Ducts			
+IfcDuctSegmentType		Ducts			
+IfcEnergyConversionDevice		Mechanical Equipment			
+IfcFan		Mechanical Equipment			
+IfcFanType		Mechanical Equipment			
+IfcFastener		Structural Connections			
+IfcFastenerType		Structural Connections			
+IfcFlowController		Generic Models			
+IfcFlowControllerType		Generic Models			
+IfcFlowMovingDevice		Mechanical Equipment			
+IfcFlowStorageDevice		Specialty Equipment			
+IfcFlowTerminal		Generic Models			
+IfcFooting		Structural Foundations			
+IfcFootingType		Structural Foundations			
+IfcFurnishingElement		Furniture			
+IfcFurnishingElementType		Furniture			
+IfcFurniture		Furniture			
+IfcFurnitureType		Furniture			
+IfcGeographicElement		Site			
+IfcGeographicElementType		Site			
+IfcLamp		Lighting Devices			
+IfcLampType		Lighting Devices			
+IfcLightFixture		Lighting Fixtures			
+IfcLightFixtureType		Lighting Fixtures			
+IfcMechanicalFastener		Specialty Equipment			
+IfcMechanicalFastenerType		Specialty Equipment			
+IfcMember		Structural Framing			
+IfcMember	MULLION	Curtain Wall Mullions			
+IfcMemberType		Structural Framing			
+IfcMemberType	MULLION	Curtain Wall Mullions			
+IfcOpeningElement		Generic Models			
+IfcPile		Structural Foundations			
+IfcPileType		Structural Foundations			
+IfcPipeFitting		Pipe Fittings			
+IfcPipeFittingType		Pipe Fittings			
+IfcPipeSegment		Pipes			
+IfcPipeSegmentType		Pipes			
+IfcPlate		Structural Framing			
+IfcPlate	CURTAIN_PANEL	Curtain Panels			
+IfcPlateType		Structural Framing			
+IfcPlateType	CURTAIN_PANEL	Curtain Panels			
+IfcPump		Mechanical Equipment			
+IfcPumpType		Mechanical Equipment			
+IfcRailing		Railings			
+IfcRailingType		Railings			
+IfcRamp		Ramps			
+IfcRampFlight		Ramps			
+IfcRampFlightType		Ramps			
+IfcRampType		Ramps			
+IfcReinforcingBar		Structural Rebar			
+IfcReinforcingBarType		Structural Rebar			
+IfcReinforcingMesh		Structural Fabric Areas			
+IfcReinforcingMeshType		Structural Fabric Areas			
+IfcRoof		Roofs			
+IfcRoofType		Roofs			
+IfcSanitaryTerminal		Plumbing Fixtures			
+IfcSanitaryTerminalType		Plumbing Fixtures			
+IfcSensor		Specialty Equipment			
+IfcSensorType		Specialty Equipment			
+IfcSite		Site			
+IfcSlab		Generic Models			
+IfcSlab	BASESLAB	Structural Foundations			
+IfcSlab	FLOOR	Floors			
+IfcSlab	LANDING	Stairs			
+IfcSlab	ROOF	Roofs			
+IfcSlabType		Generic Models			
+IfcSlabType	BASESLAB	Structural Foundations			
+IfcSlabType	FLOOR	Floors			
+IfcSlabType	LANDING	Stairs			
+IfcSlabType	ROOF	Roofs			
+IfcSpace		Generic Models			
+IfcSpaceHeater		Mechanical Equipment			
+IfcSpaceHeaterType		Mechanical Equipment			
+IfcSpaceType		Generic Models			
+IfcStair		Stairs			
+IfcStairFlight		Stairs			
+IfcStairFlightType		Stairs			
+IfcStairType		Stairs			
+IfcSwitchingDevice		Electrical Fixtures			
+IfcSwitchingDeviceType		Electrical Fixtures			
+IfcSystemFurnitureElement		Furniture			
+IfcSystemFurnitureElementType		Furniture			
+IfcTank		Specialty Equipment			
+IfcTankType		Specialty Equipment			
+IfcTransportElement		Specialty Equipment			
+IfcTransportElementType		Specialty Equipment			
+IfcValve		Pipe Accessories			
+IfcValve	DRAWOFFCOCK	Plumbing Fixtures			
+IfcValve	FAUCET	Plumbing Fixtures			
+IfcValveType		Pipe Accessories			
+IfcValveType	DRAWOFFCOCK	Plumbing Fixtures			
+IfcValveType	FAUCET	Plumbing Fixtures			
+IfcWall		Walls			
+IfcWallStandardCase		Walls			
+IfcWallType		Walls			
+IfcWindow		Windows			
+IfcWindowStyle		Windows			
+IfcWindowType		Windows			
+Imports in Families		Not Exported			
+Imports in Families	0	Not Exported			
+Imports in Families	_Intern veg	Not Exported			
+Imports in Families	_Målsetting	Not Exported			
+Imports in Families	_tekst	Not Exported			
+Imports in Families	_veg-utenfor planen	Not Exported			
+Imports in Families	Anleggsområde	Not Exported			
+Imports in Families	AnnenBygning	Not Exported			
+Imports in Families	AnnetGjerde	Not Exported			
+Imports in Families	AnnetVegarealAvgrensning	Not Exported			
+Imports in Families	Arealbrukgrense	Not Exported			
+Imports in Families	BeskrivendeHjelpelinjeAnlegg	Not Exported			
+Imports in Families	Bygning	Not Exported			
+Imports in Families	Bygningsdelelinje	Not Exported			
+Imports in Families	Bygningslinje Nivå2	Not Exported			
+Imports in Families	Defpoints	Not Exported			
+Imports in Families	Eiendom$0$K--DI---00906	Not Exported			
+Imports in Families	Eiendom$0$K--DI---00911	Not Exported			
+Imports in Families	Eiendom$0$K--DI---04011	Not Exported			
+Imports in Families	Eiendom$0$K--DI---09111	Not Exported			
+Imports in Families	Fasadeliv	Not Exported			
+Imports in Families	Fastmerke	Not Exported			
+Imports in Families	Flaggstang	Not Exported			
+Imports in Families	Fordelingsskap	Not Exported			
+Imports in Families	Forsenkningskurve	Not Exported			
+Imports in Families	Forsenkningspunkt	Not Exported			
+Imports in Families	Fortauskant	Not Exported			
+Imports in Families	FortauskantYtre	Not Exported			
+Imports in Families	FrittståendeTrapp	Not Exported			
+Imports in Families	FrittståendeTrappKant	Not Exported			
+Imports in Families	Fundament	Not Exported			
+Imports in Families	FundamentKant	Not Exported			
+Imports in Families	GangfeltAvgrensning	Not Exported			
+Imports in Families	GangSykkelveg	Not Exported			
+Imports in Families	GangSykkelvegkant	Not Exported			
+Imports in Families	Gangvegkant	Not Exported			
+Imports in Families	Gateadresse	Not Exported			
+Imports in Families	Grunnmur	Not Exported			
+Imports in Families	Hekk	Not Exported			
+Imports in Families	Hjelpelinje3D	Not Exported			
+Imports in Families	Høydekurve	Not Exported			
+Imports in Families	Idrettsanlegg	Not Exported			
+Imports in Families	InnmåltTre	Not Exported			
+Imports in Families	Jernbaneplattformkant	Not Exported			
+Imports in Families	KantUtsnitt	Not Exported			
+Imports in Families	Kum	Not Exported			
+Imports in Families	Låvebru	Not Exported			
+Imports in Families	MastVeilys	Not Exported			
+Imports in Families	MurFrittstående	Not Exported			
+Imports in Families	MurLoddrett	Not Exported			
+Imports in Families	Mønelinje	Not Exported			
+Imports in Families	Parkeringsområde	Not Exported			
+Imports in Families	ParkeringsområdeAvgrensning	Not Exported			
+Imports in Families	PblTiltak	Not Exported			
+Imports in Families	PblTiltakGrense	Not Exported			
+Imports in Families	Pipe	Not Exported			
+Imports in Families	Pipekant	Not Exported			
+Imports in Families	Portstolpe	Not Exported			
+Imports in Families	PresAdressepunkt	Not Exported			
+Imports in Families	PresAnnenTekst	Not Exported			
+Imports in Families	PresFastmerke	Not Exported			
+Imports in Families	PresGABGatekode	Not Exported			
+Imports in Families	PresGatenavn	Not Exported			
+Imports in Families	PresHøydetallKurve	Not Exported			
+Imports in Families	PresHøydetallPunkt	Not Exported			
+Imports in Families	PresStedsnavn	Not Exported			
+Imports in Families	Rives allsenter	Not Exported			
+Imports in Families	Rives barnehage	Not Exported			
+Imports in Families	Rives villa	Not Exported			
+Imports in Families	RPANGITTHENSYNGRENSE_GRENSE FOR ANGITT HENSYNSSONE	Not Exported			
+Imports in Families	RpAngittHensynSone 560	Not Exported			
+Imports in Families	RPAREALFORMÅLOMRÅDE_PAASKRIFT	Not Exported			
+Imports in Families	RpArealformålOmråde 1110	Not Exported			
+Imports in Families	RpArealformålOmråde 1112	Not Exported			
+Imports in Families	RpArealformålOmråde 1113	Not Exported			
+Imports in Families	RpArealformålOmråde 2011	Not Exported			
+Imports in Families	RpArealformålOmråde 2012	Not Exported			
+Imports in Families	RpArealformålOmråde 2015	Not Exported			
+Imports in Families	RpArealformålOmråde 2019	Not Exported			
+Imports in Families	RPFORMÅLGRENSE_FORMÅLSGRENSE	Not Exported			
+Imports in Families	RPGRENSE_PLANENS BEGRENSNING	Not Exported			
+Imports in Families	RPJURIDISKLINJE_BEBYGGELSE SOM INNGÅR I PLANEN	Not Exported			
+Imports in Families	RPJURIDISKLINJE_BYGGEGRENSE	Not Exported			
+Imports in Families	RPJURIDISKLINJE_EIENDOMSGRENSE SOM SKAL OPPHEVES	Not Exported			
+Imports in Families	RPJURIDISKLINJE_FRISIKTLINJE	Not Exported			
+Imports in Families	RPJURIDISKLINJE_PLANLAGT BEBYGGELSE	Not Exported			
+Imports in Families	RPJURIDISKLINJE_REGULERT FOTGJENGERFELT	Not Exported			
+Imports in Families	RPJURIDISKLINJE_REGULERT SENTERLINJE	Not Exported			
+Imports in Families	RPJURIDISKLINJE_REGULERT STØYSKJERM	Not Exported			
+Imports in Families	RPJURIDISKPUNKT AVKJØRSEL - BÅDE INN OG UTKJØRING	Not Exported			
+Imports in Families	RpOmråde	Not Exported			
+Imports in Families	Sandkasse	Not Exported			
+Imports in Families	Signalmast	Not Exported			
+Imports in Families	Sluk	Not Exported			
+Imports in Families	Smørebukk	Not Exported			
+Imports in Families	Spormidt	Not Exported			
+Imports in Families	SportIdrettPlass	Not Exported			
+Imports in Families	Stein	Not Exported			
+Imports in Families	Steingjerde	Not Exported			
+Imports in Families	SteinOmriss	Not Exported			
+Imports in Families	Sti	Not Exported			
+Imports in Families	StolpeEnkel	Not Exported			
+Imports in Families	Svømmebasseng	Not Exported			
+Imports in Families	SvømmebassengKant	Not Exported			
+Imports in Families	Sykkelfelt	Not Exported			
+Imports in Families	Takkant	Not Exported			
+Imports in Families	Takoverbygg	Not Exported			
+Imports in Families	TakoverbyggKant	Not Exported			
+Imports in Families	Takplatå	Not Exported			
+Imports in Families	Taksprang	Not Exported			
+Imports in Families	TaksprangBunn	Not Exported			
+Imports in Families	Terrenglinje	Not Exported			
+Imports in Families	Terrengpunkt	Not Exported			
+Imports in Families	Trafikksignalpunkt	Not Exported			
+Imports in Families	Trafikkøy	Not Exported			
+Imports in Families	Trafikkøykant	Not Exported			
+Imports in Families	TrappBygg	Not Exported			
+Imports in Families	Tribune	Not Exported			
+Imports in Families	Tribunekant	Not Exported			
+Imports in Families	Veg	Not Exported			
+Imports in Families	Vegdekkekant	Not Exported			
+Imports in Families	VegkantAnnetVegareal	Not Exported			
+Imports in Families	VegkantAvkjørsel	Not Exported			
+Imports in Families	VegkantFiktiv	Not Exported			
+Imports in Families	Vegrekkverk	Not Exported			
+Imports in Families	Vegsperring	Not Exported			
+Imports in Families	Veranda	Not Exported			
+Lighting Devices		Not Exported			
+Lighting Fixtures		Not Exported			
+Lighting Fixtures	Hidden Lines	Not Exported			
+Lighting Fixtures	Light Source	Not Exported			
+Lines		Not Exported			
+Lines	<Area Boundary>	Not Exported			
+Lines	<Beyond>	Not Exported			
+Lines	<Centerline>	Not Exported			
+Lines	<Demolished>	Not Exported			
+Lines	<Fabric Envelope>	Not Exported			
+Lines	<Fabric Sheets>	Not Exported			
+Lines	<Hidden>	Not Exported			
+Lines	<Overhead>	Not Exported			
+Lines	<Room Separation>	Not Exported			
+Lines	<Sketch>	Not Exported			
+Lines	<Space Separation>	Not Exported			
+Lines	_Black 1	Not Exported			
+Lines	_Black 2	Not Exported			
+Lines	_Black 4	Not Exported			
+Lines	_Black 6	Not Exported			
+Lines	_Black 8	Not Exported			
+Lines	_Black 10	Not Exported			
+Lines	_Black Dash 8	Not Exported			
+Lines	_Blue 12	Not Exported			
+Lines	_Green Dash 8	Not Exported			
+Lines	_Grå 10	Not Exported			
+Lines	_Orange 8	Not Exported			
+Lines	_Red 1	Not Exported			
+Lines	_Red 2	Not Exported			
+Lines	_Red 4	Not Exported			
+Lines	_Red 6	Not Exported			
+Lines	_Red 8	Not Exported			
+Lines	_Red 10	Not Exported			
+Lines	_Red 12	Not Exported			
+Lines	_Red Dash 8	Not Exported			
+Lines	_Red Dash 12	Not Exported			
+Lines	_White 8	Not Exported			
+Lines	_White Dash 8	Not Exported			
+Lines	_White Dash 10	Not Exported			
+Lines	Axis of Rotation	Not Exported			
+Lines	Hidden Lines	Not Exported			
+Lines	Insulation Batting Lines	Not Exported			
+Lines	Lines	Not Exported			
+Lines	Medium Lines	Not Exported			
+Lines	Thin Lines	Not Exported			
+Lines	Wide Lines	Not Exported			
+Mass		Mass			
+Mass	Form	Form			
+Mass	Gridlines	Not Exported			
+Mass	Hidden Lines	Not Exported			
+Mass	Mass Exterior Wall	Not Exported			
+Mass	Mass Floor	Mass Floor			
+Mass	Mass Glazing	Not Exported			
+Mass	Mass Interior Wall	Not Exported			
+Mass	Mass Opening	Not Exported			
+Mass	Mass Roof	Not Exported			
+Mass	Mass Shade	Not Exported			
+Mass	Mass Skylight	Not Exported			
+Mass	Mass Zone	Not Exported			
+Mass	Nodes	Not Exported			
+Mass	Pattern Fill	Not Exported			
+Mass	Pattern Lines	Not Exported			
+Mechanical Equipment		Not Exported			
+Mechanical Equipment	Hidden Lines	Not Exported			
+Nurse Call Devices		Not Exported			
+Parking		Not Exported			
+Parking	Hidden Lines	Not Exported			
+Parking	Parking Layout	Not Exported			
+Parking	Reference Line	Not Exported			
+Parking	Stripe	Not Exported			
+Parts		Not Exported			
+Parts	Hidden Lines	Not Exported			
+Pipe Accessories		Not Exported			
+Pipe Fittings		Not Exported			
+Pipe Fittings	Center line	Not Exported			
+Pipe Insulations		Not Exported			
+Pipe Placeholders		Not Exported			
+Pipes		Not Exported			
+Pipes	Center Line	Not Exported			
+Pipes	Drop	Not Exported			
+Pipes	Rise	Not Exported			
+Planting		Not Exported			
+Planting	Hidden Lines	Not Exported			
+Plumbing Fixtures		Not Exported			
+Plumbing Fixtures	Hidden Lines	Not Exported			
+Point Clouds		Not Exported			
+Railings		Not Exported			
+Railings	<Above> Handrails	Not Exported			
+Railings	<Above> Railings Cut Line	Not Exported			
+Railings	<Above> Top Rails	Not Exported			
+Railings	Balusters	Not Exported			
+Railings	Handrails	Not Exported			
+Railings	Hidden Lines	Not Exported			
+Railings	Rails	Not Exported			
+Railings	Supports	Not Exported			
+Railings	Terminations	Not Exported			
+Railings	Top Rails	Not Exported			
+Ramps		Not Exported			
+Ramps	Down Arrow	Not Exported			
+Ramps	DOWN text	Not Exported			
+Ramps	Hidden Lines	Not Exported			
+Ramps	Ramps Beyond Cut Line	Not Exported			
+Ramps	Stringers	Not Exported			
+Ramps	Stringers Beyond Cut Line	Not Exported			
+Ramps	Up Arrow	Not Exported			
+Ramps	UP text	Not Exported			
+Raster Images		Not Exported			
+Roads		Not Exported			
+Roads	Hidden Lines	Not Exported			
+Roofs		Not Exported			
+Roofs	Common Edges	Not Exported			
+Roofs	Curtain Roof Grids	Not Exported			
+Roofs	Cut Pattern	Not Exported			
+Roofs	Fascias	Not Exported			
+Roofs	Finish 1 [4]	Not Exported			
+Roofs	Finish 2 [5]	Not Exported			
+Roofs	Gutters	Not Exported			
+Roofs	Hidden Lines	Not Exported			
+Roofs	Interior Edges	Not Exported			
+Roofs	Membrane Layer	Not Exported			
+Roofs	Roof Soffits	Not Exported			
+Roofs	Structure [1]	Not Exported			
+Roofs	Substrate [2]	Not Exported			
+Roofs	Surface Pattern	Not Exported			
+Roofs	Thermal/Air Layer [3]	Not Exported			
+Rooms		Not Exported			
+Rooms	Color Fill	Not Exported			
+Rooms	Interior Fill	Not Exported			
+Rooms	Reference	Not Exported			
+Security Devices		Not Exported			
+Shaft Openings		Not Exported			
+Shaft Openings	Hidden Lines	Not Exported			
+Site		Not Exported			
+Site	Hidden Lines	Not Exported			
+Site	Landscape	Not Exported			
+Site	Pads	Not Exported			
+Site	Project Base Point	Not Exported			
+Site	Property Lines	Not Exported			
+Site	Stripe	Not Exported			
+Site	Survey Point	Not Exported			
+Site	Utilities	Not Exported			
+Spaces		Not Exported			
+Spaces	Color Fill	Not Exported			
+Spaces	Interior	Not Exported			
+Spaces	Reference	Not Exported			
+Specialty Equipment		Not Exported			
+Specialty Equipment	Hidden Lines	Not Exported			
+Sprinklers		Not Exported			
+Stairs		Not Exported			
+Stairs	<Above> Cut Marks	Not Exported			
+Stairs	<Above> Nosing Lines	Not Exported			
+Stairs	<Above> Outlines	Not Exported			
+Stairs	<Above> Riser Lines	Not Exported			
+Stairs	<Above> Supports	Not Exported			
+Stairs	Cut Marks	Not Exported			
+Stairs	Hidden Lines	Not Exported			
+Stairs	Nosing Lines	Not Exported			
+Stairs	Outlines	Not Exported			
+Stairs	Riser Lines	Not Exported			
+Stairs	Supports	Not Exported			
+Stairs	Treads/Risers	Not Exported			
+Structural Area Reinforcement		Not Exported			
+Structural Area Reinforcement	Boundary	Not Exported			
+Structural Beam Systems		Not Exported			
+Structural Columns		Not Exported			
+Structural Columns	Hidden Faces	Not Exported			
+Structural Columns	Hidden Lines	Not Exported			
+Structural Columns	Location Lines	Not Exported			
+Structural Columns	Rigid Links	Not Exported			
+Structural Columns	Stick Symbols	Not Exported			
+Structural Connections		Not Exported			
+Structural Connections	Hidden Lines	Not Exported			
+Structural Fabric Areas		Not Exported			
+Structural Fabric Areas	Boundary	Not Exported			
+Structural Fabric Reinforcement		Not Exported			
+Structural Fabric Reinforcement	Boundary	Not Exported			
+Structural Fabric Reinforcement	Fabric Wire	Not Exported			
+Structural Foundations		Not Exported			
+Structural Foundations	Hidden Lines	Not Exported			
+Structural Framing		Not Exported			
+Structural Framing	Chord	Not Exported			
+Structural Framing	Girder	Not Exported			
+Structural Framing	Hidden Faces	Not Exported			
+Structural Framing	Hidden Lines	Not Exported			
+Structural Framing	Horizontal Bracing	Not Exported			
+Structural Framing	Joist	Not Exported			
+Structural Framing	Kicker Bracing	Not Exported			
+Structural Framing	Location Lines	Not Exported			
+Structural Framing	Other	Not Exported			
+Structural Framing	Purlin	Not Exported			
+Structural Framing	Rigid Links	Not Exported			
+Structural Framing	Stick Symbols	Not Exported			
+Structural Framing	Vertical Bracing	Not Exported			
+Structural Framing	Web	Not Exported			
+Structural Path Reinforcement		Not Exported			
+Structural Path Reinforcement	Boundary	Not Exported			
+Structural Rebar		Not Exported			
+Structural Rebar	Hidden Lines	Not Exported			
+Structural Stiffeners		Not Exported			
+Structural Stiffeners	Hidden Lines	Not Exported			
+Structural Trusses		Not Exported			
+Structural Trusses	Stick Symbols	Not Exported			
+Telephone Devices		Not Exported			
+Topography		Not Exported			
+Topography	Boundary Point	Not Exported			
+Topography	Hidden Lines	Not Exported			
+Topography	Interior Point	Not Exported			
+Topography	Primary Contours	Not Exported			
+Topography	Secondary Contours	Not Exported			
+Topography	Triangulation Edges	Not Exported			
+Walls		Not Exported			
+Walls	Common Edges	Not Exported			
+Walls	Curtain Wall Grids	Not Exported			
+Walls	Cut Pattern	Not Exported			
+Walls	Finish 1 [4]	Not Exported			
+Walls	Finish 2 [5]	Not Exported			
+Walls	Hidden Lines	Not Exported			
+Walls	Membrane Layer	Not Exported			
+Walls	Structure [1]	Not Exported			
+Walls	Substrate [2]	Not Exported			
+Walls	Surface Pattern	Not Exported			
+Walls	Thermal/Air Layer [3]	Not Exported			
+Walls	Wall Sweep - Cornice	Not Exported			
+Walls	Wall Sweeps	Not Exported			
+Windows		Not Exported			
+Windows	Elevation Swing	Not Exported			
+Windows	Frame/Mullion	Not Exported			
+Windows	Glass	Not Exported			
+Windows	Hidden Lines	Not Exported			
+Windows	Jamb	Not Exported			
+Windows	Moulding	Not Exported			
+Windows	Opening	Not Exported			
+Windows	Plan Swing	Not Exported			
+Windows	Sill/Head	Not Exported			
+Windows	Trim	Not Exported			
+Wires		Not Exported			
+Wires	Home Run Arrows	Not Exported			
+Wires	Wire Tick Marks	Not Exported			
